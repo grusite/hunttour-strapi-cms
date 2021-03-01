@@ -4,16 +4,16 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', '127.0.0.1'),
-        srv: env.bool('DATABASE_SRV', false),
+        host: env('DATABASE_HOST', 'cluster0.bw7wy.mongodb.net'),
+        srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
         database: env('DATABASE_NAME', 'hunttour-strapi-cms'),
-        username: env('DATABASE_USERNAME', 'mongo'),
-        password: env('DATABASE_PASSWORD', 'mongo'),
+        username: env('DATABASE_USERNAME', 'mongoAdmin'),
+        password: env('DATABASE_PASSWORD', 'HOur#1111'),
       },
       options: {
         authenticationDatabase: env('AUTHENTICATION_DATABASE', null),
-        ssl: env.bool('DATABASE_SSL', false),
+        ssl: env.bool('DATABASE_SSL', true),
       },
     },
   },
