@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_explanation_test_explanation_s",
+  "info": {
+    "name": "Test Explanation ",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "GamePlot": {
+      "type": "richtext"
+    },
+    "StopInfo": {
+      "type": "richtext"
+    },
+    "Media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

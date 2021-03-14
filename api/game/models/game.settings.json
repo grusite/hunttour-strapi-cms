@@ -11,23 +11,19 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
+    "GameHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header"
     },
-    "description": {
+    "GameTests": {
+      "type": "dynamiczone",
+      "components": [
+        "tests.game-tests"
+      ]
+    },
+    "Conclusion": {
       "type": "richtext"
-    },
-    "media": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
     }
   }
 }

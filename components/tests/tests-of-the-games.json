@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_tests_tests_of_the_games",
+  "info": {
+    "name": "Tests of the games",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Hints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hints.hints-of-the-test"
+    },
+    "Solution": {
+      "type": "string"
+    },
+    "Explanation": {
+      "type": "richtext"
+    }
+  }
+}

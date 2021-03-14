@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_hints_hints_of_the_tests",
+  "info": {
+    "name": "Hints of the test",
+    "icon": "concierge-bell"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
