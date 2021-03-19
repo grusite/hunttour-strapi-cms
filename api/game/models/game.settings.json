@@ -11,16 +11,17 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "GameHeader": {
+    "Header": {
       "type": "component",
       "repeatable": false,
-      "component": "header.header"
+      "component": "header.header",
+      "required": true
     },
-    "GameTests": {
-      "type": "dynamiczone",
-      "components": [
-        "tests.game-tests"
-      ]
+    "Test": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tests.game-tests",
+      "required": true
     },
     "Conclusion": {
       "type": "richtext"

@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_hints_hints_of_the_tests",
+  "collectionName": "components_hints_game_hints",
   "info": {
-    "name": "Hints of the test",
-    "icon": "concierge-bell"
+    "name": "Game hints",
+    "icon": "concierge-bell",
+    "description": ""
   },
   "options": {},
   "attributes": {

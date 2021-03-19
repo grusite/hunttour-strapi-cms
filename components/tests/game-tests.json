@@ -2,27 +2,30 @@
   "collectionName": "components_tests_game_tests",
   "info": {
     "name": "Game Tests",
-    "icon": "award"
+    "icon": "award",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "TestHeader": {
+    "Header": {
       "type": "component",
       "repeatable": false,
       "component": "header.header"
     },
-    "TestHints": {
+    "Hints": {
       "type": "component",
       "repeatable": true,
-      "component": "hints.hints-of-the-test"
+      "component": "hints.game-hints"
     },
-    "Solution": {
-      "type": "string"
-    },
-    "TestExplanation": {
+    "Explanation": {
       "type": "component",
       "repeatable": false,
       "component": "explanation.test-explanation"
+    },
+    "Solution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tests.solution-test"
     }
   }
 }

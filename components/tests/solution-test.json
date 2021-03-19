@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tests_solution_test",
+  "info": {
+    "name": "Solution Test",
+    "icon": "bullseye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Solution": {
+      "type": "string"
+    }
+  }
+}

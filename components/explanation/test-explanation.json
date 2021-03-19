@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_explanation_test_explanation_s",
+  "collectionName": "components_explanation_test_explanation",
   "info": {
-    "name": "Test Explanation ",
-    "icon": "chalkboard-teacher"
+    "name": "Test Explanation",
+    "icon": "chalkboard-teacher",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,6 +23,9 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "SolutionInfo": {
+      "type": "richtext"
     }
   }
 }
