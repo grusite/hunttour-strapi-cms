@@ -5,14 +5,15 @@
   "description": "Hunttour Strapi CMS",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "cross-env NODE_ENV=production strapi start",
     "build": "strapi build",
     "strapi": "strapi",
     "heroku": "git push heroku main",
-    "build-heroku": "yarn build & yarn heroku"
+    "build:heroku": "yarn build & yarn heroku",
   },
   "devDependencies": {},
   "dependencies": {
+    "cross-env": "^7.0.3",
     "strapi": "3.5.1",
     "strapi-admin": "3.5.1",
     "strapi-connector-mongoose": "3.5.1",

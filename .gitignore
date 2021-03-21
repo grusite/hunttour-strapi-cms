@@ -77,6 +77,8 @@ $RECYCLE.BIN/
 ############################
 
 *#
+*dev
+*data
 ssl
 .idea
 nbproject
