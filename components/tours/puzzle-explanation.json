@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_tours_puzzle_explanations",
+  "info": {
+    "name": "puzzleExplanation",
+    "icon": "envelope-open-text"
+  },
+  "options": {},
+  "attributes": {
+    "solutionInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tours.content-skeleton"
+    },
+    "gamePlotPreStopInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tours.content-skeleton"
+    },
+    "stopInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tours.content-skeleton"
+    },
+    "gamePlotPostStopInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tours.content-skeleton"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tours_puzzle_solutions",
+  "info": {
+    "name": "puzzleSolution",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "possibleSolution": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

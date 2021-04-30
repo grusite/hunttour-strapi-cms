@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_tours_puzzles",
+  "info": {
+    "name": "puzzle",
+    "icon": "mars-stroke"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tours.content-skeleton",
+      "required": true
+    },
+    "hints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tours.content-skeleton"
+    },
+    "explanation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tours.puzzle-explanation"
+    },
+    "solution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tours.puzzle-solution",
+      "required": true
+    }
+  }
+}

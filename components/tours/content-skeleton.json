@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_tours_content_skeletons",
+  "info": {
+    "name": "contentSkeleton",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 3
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
