@@ -5,6 +5,7 @@
   "description": "Hunttour Strapi CMS",
   "scripts": {
     "develop": "strapi develop",
+    "develop:prod": "strapi develop",
     "start": "strapi start",
     "start:prod": "cross-env NODE_ENV=production strapi start",
     "build": "strapi build",

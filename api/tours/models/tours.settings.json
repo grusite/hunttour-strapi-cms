@@ -36,7 +36,7 @@
       "component": "tours.content-skeleton",
       "required": true
     },
-    "puzzle": {
+    "puzzles": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
