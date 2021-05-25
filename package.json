@@ -12,7 +12,7 @@
     "build:prod": "cross-env NODE_ENV=production strapi build",
     "strapi": "strapi",
     "heroku": "git push heroku main",
-    "build:heroku": "yarn build & yarn heroku"
+    "build:heroku": "yarn build:prod & yarn heroku"
   },
   "devDependencies": {},
   "dependencies": {
