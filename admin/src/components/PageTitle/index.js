@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 
 // import favicon from "../../favicon.png";
-import favicon from "../../assets/images/logo_rn@2x.png";
+import favicon from "../../assets/images/logo_rb.svg";
 
 const PageTitle = ({ title }) => (
   <Helmet
