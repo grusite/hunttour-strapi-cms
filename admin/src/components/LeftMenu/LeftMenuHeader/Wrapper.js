@@ -2,7 +2,8 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 
 // import Logo from '../../../assets/images/logo-strapi.png';
-import Logo from "../../../assets/images/key-letters-horizontal_r.svg";
+// import Logo from "../../../assets/images/key-letters-horizontal_r.svg";
+import Logo from "../../../assets/images/logo-2gotours-panel-izdo.svg";
 
 // background-color: #007eff;
 
