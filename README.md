@@ -77,6 +77,12 @@ Or go with prod DB (MongoAtlas) and Media (Cloudinary)
 $ yarn develop:prod
 
 # heroku deployment
+1. Install heroku CLI
+2. Login with your account `heroku login`
+3. Add heroku remote url 'heroku git:remote hunttour-strapi-cms'
+4. Push the changes commited into heroku 'git push heroku main'
+
+In case you already did the previous step, just run:
 $ yarn build:heroku
 ```
 
