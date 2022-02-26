@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/turasist-tours",
+      "handler": "turasist-tours.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/turasist-tours/count",
+      "handler": "turasist-tours.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/turasist-tours/:id",
+      "handler": "turasist-tours.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/turasist-tours",
+      "handler": "turasist-tours.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/turasist-tours/:id",
+      "handler": "turasist-tours.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/turasist-tours/:id",
+      "handler": "turasist-tours.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

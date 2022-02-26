@@ -67,11 +67,14 @@ Create a `.env` file from the `.env.example` template file and then edit it with
 ```bash
 # start the app in production mode
 $ yarn build
-$ yarn start
+$ yarn start:prod
 
 # start the app in dev mode
 Run node locally first: mongod --dbpath='/c/Users/jordi/data/db'
 $ yarn develop
+
+Or go with prod DB (MongoAtlas) and Media (Cloudinary)
+$ yarn develop:prod
 
 # heroku deployment
 $ yarn build:heroku
